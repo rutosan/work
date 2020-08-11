@@ -75,7 +75,7 @@ a {
 
 .fadein {
   position: absolute;
-  top: 0;
+  top: 0%;
   left: 0%;
   text-align: center;
   visibility: hidden;
@@ -85,6 +85,10 @@ a {
   height: 100%;
 }
 
+.fadein h3 {
+  margin-top: 40%;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
 
 .box:hover .fadein {
   visibility: visible;
